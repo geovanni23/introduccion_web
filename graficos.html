@@ -6,6 +6,27 @@
     <title>Graficos</title>
 </head>
 <body>
-    
+    <svg width= "400" height= "400" >
+
+        <circle cx= "100" cy= "100" r= "50" stroke= "blue" stroke-width= "4" fill= "yellow" >
+    </svg>
+
+    <svg width="200" height="100">
+        
+        <rect width="200" height="100" style="fill:rgb(0,0,255); stroke-width:10; stroke:rgb(0,0,0)">
+      
+    </svg>
+
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,100);
+        ctx.stroke();
+    </script>
+
+      
 </body>
 </html>
