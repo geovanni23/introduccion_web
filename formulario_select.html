@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con select</title>
+</head>
+<body>
+    
+    <form action="/introduccion_web-2/guardado.html" method="GET">
+        <fieldset style="width: 300px; background-color: aqua; border-radius: 20px;" >
+            <legend>Formulario</legend>
+            <select name="carros" id="carros" required>
+                <option value="">--Selecciona--</option>
+                <option value="1">Volvo</option>
+                <option value="2">BMW</option>
+                <option value="3">Audi</option>
+            </select>
+            <br><br>
+
+            <label for="comentarios">Comentarios</label>
+            <br>
+
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            <br><br>
+
+            <input type="submit" value=".::Guardar::.">
+            <br><br>
+        </fieldset>
+
+    </form>
+
+
+</body>
+</html>
